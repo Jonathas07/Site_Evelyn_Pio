@@ -1,19 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
-    list-style: none;
+    list-style: none;  
 }
 
 body{
-    background-color: rgb(37, 37, 37);
+    background-image: linear-gradient(90deg, rgb(37, 37, 37), rgb(0, 0, 0), rgb(37,37,37), #bc6561, rgb(109, 66, 66));
 }
-/* ______________________ FIM Body */
+/* ______________________ FIM Body */ 
 header{
-    background-image: linear-gradient(40deg,  rgb(37, 37, 37), rgb(0, 0, 0), rgb(37,37,37), rgb(0, 0, 0), rgb(37,37,37));
+    background-image: linear-gradient(40deg,  rgb(37, 37, 37), rgb(0, 0, 0), rgb(37,37,37), #bc6561, rgb(37,37,37));
     height: 110px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -44,11 +43,12 @@ li{
 }
 
 li:hover{
-    color: darkgoldenrod;
+    color:  #bc6561;
+    border-color: black;
 }
 
 li:active{
-    color: darkgoldenrod;
+    color:  #bc6561;
 }
 
 /* _____________________________Fim do Header________________________________________________ */
@@ -59,6 +59,7 @@ main{
     background-position: 0px -90px;
     height: 510px;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #centro{
@@ -74,19 +75,23 @@ main{
 .textos{
     margin: 30px 30px 50px 30px;
     width: 600px;
+    height: 325px;
     color:white;
     background-color: rgba(0, 0, 0, 0.361);
     border-radius: 20px;
     padding: 10px;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
-h1{
+#txtcentro1{
     padding-bottom: 30px;
-    font-size: 50px;
+    font-size: 35px;
 }
 
-h3{
+#txtcentro2{
     font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.1px;
 }
 
 .txtagenda{
@@ -96,14 +101,24 @@ h3{
 }
 
 .txtagenda:hover{
-    color: darkgoldenrod;
+    color:  #bc6561;
 }
 
 video{
     width: 600px;
     margin: 30px;
+    padding-top: 15px;
     border-radius: 30px;
     box-shadow: 6px 4px rgba(0, 0, 0, 0.44);
+}
+
+.redessociais{
+    text-align: center;
+}
+
+#logoredes{
+    width: 40px;
+    height: 40px;
 }
 /* ________________________FIM do Main____________________ */
 
@@ -119,5 +134,8 @@ footer{
 }
 
 .github{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+#Desenvolvido{
+    color: black;
 }
