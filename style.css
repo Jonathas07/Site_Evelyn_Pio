@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+/* ______________________ FIM Body */
+header{
+    background-image: linear-gradient(40deg,  rgb(37, 37, 37), rgb(0, 0, 0), rgb(37,37,37), rgb(0, 0, 0), rgb(37,37,37));
+    height: 110px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_top{
+    width: 300px;
+    height: auto;
+    margin:auto;
+    transition: 0.5s;
+    
+}
+#navcima{
+    width: 600px;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+}
+
+li{
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+li:hover{
+    color: darkgoldenrod;
+}
+
+li:active{
+    color: darkgoldenrod;
+}
+
+/* _____________________________Fim do Header________________________________________________ */
+
+main{
+    background-image: url('./midias/Evelyn.png');
+    background-size: cover;
+    background-position: 0px -90px;
+    height: 510px;
+    width: 100%;
+}
+
+#centro{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.475);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.textos{
+    margin: 30px 30px 50px 30px;
+    width: 600px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.361);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h1{
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.txtagenda{
+    color:white;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.txtagenda:hover{
+    color: darkgoldenrod;
+}
+
+video{
+    width: 600px;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 6px 4px rgba(0, 0, 0, 0.44);
+}
+/* ________________________FIM do Main____________________ */
+
+footer{
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+    align-items: center;
+    font-style: italic;
+}
+
+.github{
+    color: aliceblue;
+}
