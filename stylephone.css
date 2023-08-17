@@ -1,16 +1,53 @@
 @media(max-width: 780px) {
     body{
         width: 100%;
-        height: 400px;
+        height: auto;
     }
     #navcima{
         display: none;
     }
+    
+    /* ______Fim do Header_________ */
+
+    main{
+        width: 100%;
+        height: 400px;
+        background-position:-280px 0px ;
+    }
+
+    #centro{
+        display: block;
+        height: 400px;
+    }
+    .textos{
+        margin:10px auto 0 auto;
+        /* padding: ; */
+        width: 90%;
+        height: 150px;
+
+    }
+
+    #txtcentro1{
+        font-size: 35px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    #txtcentro2{
+        font-size: 20px;
+    }
+
+
+
+    /* _______Fim do Main___________ */
     .navbaixo{
         display: block;
+        height: auto;
     }
+
     footer{
         display: block;
+        height: auto;
     }
 
 
