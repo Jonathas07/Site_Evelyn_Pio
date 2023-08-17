@@ -139,3 +139,7 @@ footer{
 #Desenvolvido{
     color: black;
 }
+
+.navbaixo{
+    display: none;
+}
