@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
 @media(max-width: 780px) {
     body{
         width: 100%;
@@ -31,15 +33,15 @@
     }
 
     #txtcentro1{
+        font-family: 'Tangerine', cursive;
         font-size: 35px;
-        font-weight: bold;
         padding-bottom: 10px;
         text-align: center;
+        
     }
 
     #txtcentro2{
         font-size: 21.5px;
-        /* font-weight: bold; */
     }
 
     video{
@@ -67,6 +69,7 @@
     .navbaixo{
         padding:0px 20px 10px 20px;
         display: block;
+        font-style: normal;
     }
 
     #Desenvolvido{
