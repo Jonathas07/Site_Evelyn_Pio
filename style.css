@@ -168,18 +168,31 @@ iframe{
 
 /* __________INICIO Agenda.html_____________________ */
 
-.agendamento{
-    background-color: darkslategray;
+.centroagenda{
     display: flex;
-    border-radius: 20px;
-    width: 530px;
-    padding: 10px 20px 10px 20px;
+    width: 100%;
+
+}
+
+.fotolateral{
+    width: 350px;
+}
+
+.agendamento{
+    background-color: rgba(0, 0, 0, 0.353);
+    /* background-image: url('./midias/congresso\ IEADPE\ serinhaém.png');
+    background-size: cover;
+    background-position: -100px 0%; */
+    display: flex;
+    width: 800px;
+    padding: 10px;
 }
 
 .p1{
     width: 200px;
     text-align: end;
-    font-size: 20px;
+    font-size: 25px;
+    color: white;
 }
 .p2{
     font-size: 20px;
@@ -193,7 +206,7 @@ iframe{
 .inputag{
     border-radius: 10px;
     padding: 0 10px 0 10px;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
 
 textarea{
