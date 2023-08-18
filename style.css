@@ -149,6 +149,7 @@ footer{
 
 /* ______________________FIM do Index.html______________________ */
 
+/* ___________________Videos.html______________________ */
 .center-videos{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.537);
@@ -162,4 +163,35 @@ iframe{
     width: 400px;
     height: 180px;
     border-radius: 10px;
+}
+/* __________FIM Videos.html_______________________*/
+
+/* __________INICIO Agenda.html_____________________ */
+
+.agendamento{
+    text-align: center;
+    background-color: darkslategray;
+    border-radius: 20px;
+    width: 500px;
+    padding: 10px;
+    font-size: 30px;
+}
+.inputag{
+    font-size: 20px;
+}
+
+#nome{
+    width: 280px;
+}
+
+#fone{
+    width: 255px;
+}
+
+#evento{
+    width: 255px;
+}
+
+#local{
+    width: 100px;
 }
