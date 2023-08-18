@@ -94,6 +94,16 @@
         border-radius: 10px;
     }
     
+    /* _________Inicio Video.html_______ */
+
+    .centervideos{
+        text-align: center;
+    }
+    iframe{
+        width: 325px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
 
 
 
