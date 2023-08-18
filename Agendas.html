@@ -29,22 +29,34 @@
     </header>
 
         <div class="agendamento">
-            <p> Nome:               <input class="inputag" type="text" name="nome" id="nome" placeholder="Digite seu nome e sobre nome!"></p>
-            <p> Telefone:           <input class="inputag" type="tel" name="fone" id="fone" placeholder="(00) 9 0000-0000 WhatsApp"></p>
-            <p> Data do evento:     <input class="inputag" type="date" name="Data" id="data"> </p>
-
-            <p> Quantos dias:       <input class="inputag" type="radio" name="raddias" id="um" checked>
-                                    <label for="um">1 dia</label>
-                                    <input class="inputag" type="radio" name="raddias" id="mais">
-                                    <label for="mais">2 ou mais dias</label></p>
-
-            <p> hora de incício:    <input class="inputag" type="time" name="horainicio" id="horainicio"></p>
-            <p> hora de termino:    <input class="inputag" type="time" name="horafinal" id="horafinal"></p>
-            <p> carater do evento:  <input class="inputag" type="text" name="evento" id="evento" placeholder="congresso/ceia/casamento..."></p>
-            <p> local:              <input class="inputag" type="text" name="local" id="local" placeholder="IEADPE e local/nome do espaço..." style="width: 200px;"></p>
-            <p> endereço:           <input class="inputag" type="text" name="endereço" id="endereço" placeholder="rua,n - bairro/cidade/estado"></p>
-            <p style="display: flex;"> observações:        <textarea class="inputag" name="observações" id="observações" cols="30" rows="10" placeholder="digite qualquer coisa que precisa ser informado que não solicitado no foramulario"></textarea></p>    
-
+            <div class="p1">
+                <p class="pagen"> Nome:</p>
+                <p class="pagen"> Telefone:</p>
+                <p class="pagen"> Data do evento:</p>
+                <p class="pagen"> Quantos dias:</p>
+    
+                <p class="pagen"> hora de incício:</p>
+                <p class="pagen"> hora de termino:</p>
+                <p class="pagen"> carater do evento:</p>
+                <p class="pagen"> local:</p>
+                <p class="pagen"> endereço:</p>
+                <p class="pagen"> observações:</p>    
+            </div>
+            <div class="p2">
+                <input class="inputag" type="text" name="nome" id="nome" placeholder="Digite seu nome e sobre nome!">
+                <input class="inputag" type="tel" name="fone" id="fone" placeholder="(00) 9 0000-0000 WhatsApp">
+                <input class="inputag" type="date" name="Data" id="data"><br>
+                <input class="inputag" type="radio" name="raddias" id="um" checked>
+                    <label for="um">1 dia</label>
+                <input class="inputag" type="radio" name="raddias" id="mais">
+                    <label for="mais">2 ou mais dias</label>
+                <input class="inputag" type="time" name="horainicio" id="horainicio"><br>
+                <input class="inputag" type="time" name="horafinal" id="horafinal">
+                <input class="inputag" type="text" name="evento" id="evento" placeholder="congresso/ceia/casamento...">
+                <input class="inputag" type="text" name="local" id="local" placeholder="IEADPE e local/nome do espaço..." style="width: 200px;">
+                <input class="inputag" type="text" name="endereço" id="endereço" placeholder="rua,n - bairro/cidade/estado">
+                <textarea class="inputag" name="observações" id="observações" cols="30" rows="10" placeholder="digite qualquer coisa que precisa ser informado que não solicitado no foramulario"></textarea>
+            </div>
 
         </div>
 

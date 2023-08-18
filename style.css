@@ -169,15 +169,36 @@ iframe{
 /* __________INICIO Agenda.html_____________________ */
 
 .agendamento{
-    text-align: center;
     background-color: darkslategray;
+    display: flex;
     border-radius: 20px;
-    width: 500px;
-    padding: 10px;
-    font-size: 30px;
+    width: 530px;
+    padding: 10px 20px 10px 20px;
+}
+
+.p1{
+    width: 200px;
+    text-align: end;
+    font-size: 20px;
+}
+.p2{
+    font-size: 20px;
+    width: 200px;
+    text-align: start;
+    margin-left: 10px;
+}
+.pagen{
+    margin-bottom: 5px;
 }
 .inputag{
-    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    margin-bottom: 5px;
+}
+
+textarea{
+    width: 300px;
+    height: 250px;
 }
 
 #nome{
