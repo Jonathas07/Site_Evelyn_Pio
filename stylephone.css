@@ -13,7 +13,7 @@
 
     main{
         width: 100%;
-        height: 535px;
+        height: auto;
         background-position:-280px 0px ;
     }
 
@@ -29,7 +29,6 @@
         padding: 10px;
         width: 90%;
         height: 200px;
-
     }
 
     #txtcentro1{
@@ -37,7 +36,6 @@
         font-size: 35px;
         padding-bottom: 10px;
         text-align: center;
-        
     }
 
     #txtcentro2{
@@ -58,13 +56,14 @@
         padding: 0 10px 0 10px;
     }
 
-    /* _______Fim do Main___________ */
+    /* _______Inicio do footer___________ */
     
     footer{
         display: block;
         width: 100%;
         height: 120px;
         padding-top: 10px;
+        margin-bottom: 20px;
     }
 
     .navbaixo{
@@ -76,11 +75,13 @@
     }
 
     li{
-        margin: 0 25px 0 0;
+        margin: 0 20px 0 20px;
     }
 
     ul{
-        padding-left: 21%;
+
+        width: 100%;
+
     }
 
     .direitos{
