@@ -1,5 +1,5 @@
-let res = document.getElementById('res')
-
 function enviar(){
-    res.innerText='Tudo Certinho!'
+    let res = document.getElementById("res")
+    res.innerText = "Tudo Funcionando perfeitamente!"
+    alert('Ainda esta em desenvolvimento!')
 }
