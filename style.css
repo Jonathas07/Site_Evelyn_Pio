@@ -168,6 +168,10 @@ iframe{
 
 /* __________INICIO Agenda.html_____________________ */
 
+#agendamentocell{
+    display: none;
+}
+
 .centroagenda{
     display: flex;
     width: 100%;
@@ -226,7 +230,6 @@ textarea{
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 0 10px 0 10px;
-
 }
 
 button{
@@ -241,4 +244,5 @@ button{
 button:hover{
     background-color: #020202;
     color: #bc6561;
+    
 }
