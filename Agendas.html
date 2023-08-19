@@ -7,6 +7,7 @@
     <link rel="icon" href="./midias/ICON_ROSE_EP_cortado.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylephone.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -31,37 +32,37 @@
             
             <img class="fotolateral" src="./midias/camará_shopping1_corte.png" alt="">
             
-            <div class="agendamento">
+            <div class="agendamento" id="res">
                 <div class="p1">
                     <p class="pagen"> Nome:</p>
                     <p class="pagen"> Telefone:</p>
                     <p class="pagen"> Data do evento:</p>
                     <p class="pagen"> Quantos dias:</p>
-        
-                    <p class="pagen"> hora de incício:</p>
-                    <p class="pagen"> hora de termino:</p>
-                    <p class="pagen"> carater do evento:</p>
-                    <p class="pagen"> local:</p>
-                    <p class="pagen"> endereço:</p>
-                    <p class="pagen"> observações:</p>    
+                    <p class="pagen"> Hora de incício:</p>
+                    <p class="pagen"> Hora de termino:</p>
+                    <p class="pagen"> Carater do evento:</p>
+                    <p class="pagen"> Local:</p>
+                    <p class="pagen"> Endereço:</p>
+                    <p class="pagen"> Observações:</p>    
                 </div>
                 <div class="p2">
                     <input class="inputag" type="text" name="nome" id="nome" placeholder="Digite seu nome e sobre nome!">
                     <input class="inputag" type="tel" name="fone" id="fone" placeholder="(00) 9 0000-0000 WhatsApp">
-                    <input class="inputag" type="date" name="Data" id="data"><br>
-                    <input class="inputag" type="radio" name="raddias" id="um" checked>
-                        <label for="um" style="color: white;">1 dia</label>
-                    <input class="inputag" type="radio" name="raddias" id="mais">
-                        <label for="mais" style="color: white;">2 ou mais dias</label>
-                    <input class="inputag" type="time" name="horainicio" id="horainicio"><br>
-                    <input class="inputag" type="time" name="horafinal" id="horafinal">
+                    <input type="date" name="Data" id="data"><br>
+                    <input type="radio" name="raddias" id="um" checked>
+                        <label for="um" style="color: white;">1 dia ou</label>
+                    <input type="radio" name="raddias" id="mais">
+                        <label for="mais" style="color: white; margin-right: 200px; ">2 ou mais</label>
+                    <input type="time" name="horainicio" id="horainicio"><br>
+                    <input type="time" name="horafinal" id="horafinal">
                     <input class="inputag" type="text" name="evento" id="evento" placeholder="congresso/ceia/casamento...">
-                    <input class="inputag" type="text" name="local" id="local" placeholder="IEADPE e local/nome do espaço..." style="width: 200px;">
+                    <input class="inputag" type="text" name="local" id="local" placeholder="IEADPE e local/nome do espaço...">
                     <input class="inputag" type="text" name="endereço" id="endereço" placeholder="rua,n - bairro/cidade/estado">
-                    <textarea class="inputag" name="observações" id="observações" cols="30" rows="10" placeholder="digite qualquer coisa que precisa ser informado que não solicitado no foramulario"></textarea>
+                    <textarea name="observações" id="observações" cols="30" rows="10" placeholder="digite qualquer coisa que precisa ser informado que não solicitado no foramulario"></textarea><br>
+                    <button onclick="enviar()">enviar</button>
                 </div>
             </div>
-
+    
             <img class="fotolateral" src="./midias/camará_shopping1_corte.png" alt="">
 
         </div>

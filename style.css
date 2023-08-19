@@ -196,7 +196,7 @@ iframe{
 }
 .p2{
     font-size: 20px;
-    width: 200px;
+    width: 400px;
     text-align: start;
     margin-left: 10px;
 }
@@ -206,26 +206,28 @@ iframe{
 .inputag{
     border-radius: 10px;
     padding: 0 10px 0 10px;
-    margin-bottom: 12px;
+    margin-bottom: 11px;
+    height: 15px;
+    width: 300px;
 }
 
 textarea{
     width: 300px;
     height: 250px;
+    border-radius: 10px;
+    padding: 2px 10px 10px 10px;
 }
 
-#nome{
-    width: 280px;
+#um{
+    margin-bottom: 11px;      
+}
+#mais{
+    margin: 0 2px 8px 10px;
 }
 
-#fone{
-    width: 255px;
-}
+#horainicio, #horafinal, #data{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
 
-#evento{
-    width: 255px;
-}
-
-#local{
-    width: 100px;
 }
