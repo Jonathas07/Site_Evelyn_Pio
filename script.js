@@ -4,3 +4,7 @@ function enviar(){
     res.style.color = ('white')
     alert('Ainda esta em desenvolvimento!')
 }
+
+function txtbtn(){
+    innerText = "deseja enviar?"
+}
