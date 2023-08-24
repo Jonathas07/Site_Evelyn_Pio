@@ -6,5 +6,6 @@ function enviar(){
 }
 
 function txtbtn(){
-    innerText = "deseja enviar?"
+    let txtbtn = document.getElementById('txtbnt')
+    txtbtn.innerText = "deseja enviar?"
 }
