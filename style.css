@@ -16,6 +16,7 @@ header{
     height: 110px;
     display: flex;
     justify-content: space-between;
+
 }
 
 #logo_top{
@@ -58,7 +59,9 @@ main{
     background-image: url('./midias/Evelyn.png');
     background-size: cover;
     background-position: 0px -90px;
-    height: 510px;
+    height: auto;
+
+
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
